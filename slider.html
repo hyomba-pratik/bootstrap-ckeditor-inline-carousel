@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="stylesheet" href="css/helpers.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+    <div class="positionrelative">
+        <div class="w200 settings-wrapper" style="top: 150px; left: -200px; z-index: 1; background-color: white; border-bottom-right-radius: 5px; position: fixed;">
+            <div class="positionrelative">
+                <a href="" class="positionabsolute p15 setting-cogs" style="right: -60px;  background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"><i class="fa fa-cogs fa-2x"></i></a>
+                <ul class="list-unstyled" >
+                    <li class="p15">
+                        <a href="">Save and Continue</a>
+                    </li>
+                    <li class="p15">
+                        <a href="">Save and Preview</a>
+                    </li>
+                     <li class="p15">
+                        <a href="">Discard Last Changes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <span > --><a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a><!-- </span> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-editable="true">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">I Like <span class="caret">&nbsp;</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bootstrap</a></li>
+                            <li><a href="#">CKeditor</a></li>
+                            <li><a href="#">Javascript</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section>
+        <div class="container">
+            <h2 data-editable="true">Slider</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-editable-carousel="true">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active" data-slide-index="0">
+                                <div class="positionabsolute right50p top15" style="z-index: 1; transform: translateX(50%);">
+                                    <button class="btn btn-primary mr10" data-action="upload-image">Upload Image</button>
+                                    <button class="btn btn-danger mr10" data-action="delete-slide">Delete Slide</button>
+                                    <button class="btn btn-danger" data-action="image-reposition" data-status="view">Reposition</button>
+                                </div>
+                                <img src="http://www.gettyimages.com/gi-resources/images/Homepage/Hero/US/Jan2016/hero-instagram.jpg" alt="..." class="w100p">
+                                <div class="carousel-caption" data-editable="true">
+                                    Slider 1 Caption
+                                </div>
+                            </div>
+                            <div class="item" data-slide-index="1">
+                                <div class="positionabsolute right50p top15" style="z-index: 1; transform: translateX(50%);">
+                                    <button class="btn btn-primary mr10" data-action="upload-image">Upload Image</button>
+                                    <button class="btn btn-danger mr10" data-action="delete-slide">Delete Slide</button>
+                                    <button class="btn btn-danger" data-action="image-reposition" data-status="view" >Reposition</button>
+                                </div>
+                                <img src="http://i.istockimg.com/cms/resources/images/HomePage/Tiles/US%20Feb%202016/Travel_Essentials_58200746.jpg" alt="..." class="w100p">
+                                <div class="carousel-caption" data-editable="true">
+                                    Slider 2 Caption
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                    <button class="btn btn-primary mt15" onclick="addCarousel();">Add New Slide</button>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade in" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Uploading Slider Image!</h4>
+                </div>
+                <div class="modal-body ">
+                   <div id="progress" class="progress mt10">
+                        <div class="progress-bar progress-bar-striped active"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script> <!-- used by imagedrag.js -->
+    <script src="js/jquery.imagedrag.js"></script> <!-- enables image reposition -->
+
+    <!-- these 3 js files are required for jquery file upload.  -->
+    <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+    <script src="uploadEngine/js/vendor/jquery.ui.widget.js"></script>
+    <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+    <script src="uploadEngine/js/jquery.iframe-transport.js"></script>
+    <!-- The basic File Upload plugin -->
+    <script src="uploadEngine/js/jquery.fileupload.js"></script>
+
+   
+
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action" data-editable="true">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center" data-editable="true">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center" data-editable="true">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center" data-editable="true">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/adapters/jquery.js"></script>
+
+    <script type="text/javascript">
+        /*
+            enables the inline edit to those elements which have data-editable="true" attribute.
+            data-editable should be used to block elements only like div, p, etc.
+         */
+
+        $('[data-editable="true"]').attr( 'contenteditable', 'true' ).ckeditor();
+
+
+        /*
+            this is for async fix. if page takes much time to load and failed to initialize ckeditor, this function will take action.
+         */
+        $(window).load(function(){
+            $('[data-editable="true"]').attr( 'contenteditable', 'true' );            
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        /*
+            this is the sliding setting button in left side of page.
+            this opens up the options to save and continue, save and preview and discard saved changes
+         */
+        $('.setting-cogs').mouseenter(function() {
+             $('.settings-wrapper').animate({
+                "left":"0"
+             });
+        });
+
+        $('.settings-wrapper').mouseleave(function() {
+             $('.settings-wrapper').animate({
+                "left":"-200"
+             });
+        });
+    </script>
+
+    <script type="text/javascript">
+
+
+        var carousel = $('[data-editable-carousel="true"]'); //storing whole carousel in a variable.
+
+        /*
+            this function enables the dragging of images of slider. 
+            this function activates when Reposition button is clicked.
+         */
+        var carousel_drag = function(){   
+            carousel.find('.carousel-inner .item.active').imagedrag({
+              input: "#output",
+              position: "top",
+              attribute: "html"
+            }).css({
+                "cursor":"move"
+            });
+
+            carousel.find('.carousel-inner .item.active [data-action="image-reposition"]').text('Save Changes').attr('data-status', 'edit');
+
+            carousel.find('.carousel-inner .item.active img').draggable( 'enable' );
+        };
+
+
+        /*
+          this function handles the click event of Reposition click event.
+          it checks if the current status is edit or view only.
+          Edit mode is when user can drag image.  
+         */
+        carousel.on('click', '[data-action="image-reposition"]', function(){
+            if ($(this).attr('data-status')=="view") {
+                carousel_drag();
+            }else{
+                carousel.find('.carousel-inner .item.active img').draggable( 'disable' ).css({
+                    "cursor":"default"
+                });
+                $(this).text("Reposition").attr("data-status", "view");
+            }
+        });
+        
+
+        /*
+            this function adds new slide in carousel
+         */
+        var addCarousel = function(){
+            var count_carousel = carousel.find('.carousel-inner .item').length;
+            
+            var new_indicator = '<li data-target="#carousel-example-generic" data-slide-to="'+(count_carousel)+'" class="active"></li>';
+
+            var new_slider = '<div class="item active" data-slide-index="'+count_carousel+'">';
+                new_slider +=    '<div class="positionabsolute right50p top15" style="z-index: 1; transform: translateX(50%);">';
+                new_slider +=       '<button class="btn btn-primary mr10" data-action="upload-image">Upload Image</button>&nbsp; &nbsp;';
+                new_slider +=       '<button class="btn btn-danger mr10" data-action="delete-slide">Delete Slide</button>';
+                new_slider +=       '<button class="btn btn-danger" data-action="image-reposition" data-status="view" >Reposition</button>';
+                new_slider +=    '</div>';
+                new_slider +=    '<img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Category-Creative/UK/UK_Creative_462809583.jpg" alt="..." class="w100p">';
+                new_slider +=    '<div class="carousel-caption" data-editable="true">';
+                new_slider +=    'Slider '+(count_carousel+1)+' Caption';
+                new_slider +=    '</div>';
+                new_slider +='</div>';
+
+
+            carousel.find('.carousel-inner .item').removeClass('active');
+            carousel.find('.carousel-indicators li').removeClass('active');
+
+            carousel.find('.carousel-indicators').append(new_indicator);
+            carousel.find('.carousel-inner').append(new_slider); 
+        };
+
+        /*
+            this function is triggered when user click image upload button
+            it opens the file browsing window to select image.
+         */
+        carousel.on('click', '[data-action="upload-image"]', function(){
+            $('#slideUpload').click();
+        });
+
+
+        /*
+            this function deletes the slide from carousel.
+         */
+        carousel.on('click', '[data-action="delete-slide"]', function() {
+            var count_carousel = carousel.find('.carousel-inner .item').length;
+
+            var slider_index = $(this).parents().eq(1).attr('data-slide-index');
+            
+            $(this).parents().eq(1).remove();
+            carousel.find('.carousel-indicators li[data-slide-to="'+slider_index+'"]').remove();
+
+            carousel.find('.carousel-inner .item:first-child').addClass('active');
+            carousel.find('.carousel-indicators li:first-child').addClass('active');
+
+        });
+
+        /*
+            this function helps to initialize ckeditor for new slide caption.
+         */
+        carousel.bind("DOMSubtreeModified",function(){
+          $('[data-editable="true"]').ckeditor().attr( 'contenteditable', 'true' );
+        });
+        
+    </script>
+
+    <input id="slideUpload" type="file" name="files" class="h0 w0" accept="image/*">
+
+    <script type="text/javascript">
+        /*
+            this uploads the file to server - this is from blueimp jquery file upload.
+         */
+        $('#slideUpload').fileupload({
+            url: 'uploadEngine/server/php/',
+            dataType: 'json',
+            done: function (e, data) {
+                $.each(data.result.files, function (index, file) {
+
+                    //file url = file.url;
+                    //thumbnail url = file.thumbnailUrl;
+                    //medium url = file.mediumUrl;
+                    //delete url = file.deleteUrl;
+                    
+
+                    carousel.find('.carousel-inner .item.active img').attr('src', file.url); //setting the uploaded image to current slide.
+
+                
+                });
+
+            },
+            progressall: function (e, data) {
+                $('#loadingModal').modal('show');
+                //$('#progress').removeClass("hide");
+                var progress = parseInt(data.loaded / data.total * 100, 10);
+                $('#progress .progress-bar').css(
+                    'width',
+                    progress + '%'
+                );
+
+                if (progress==100) {
+                    //$('#progress').addClass("hide");
+                    $('#loadingModal').modal('hide');
+                }
+            }
+        }).prop('disabled', !$.support.fileInput)
+            .parent().addClass($.support.fileInput ? undefined : 'disabled');
+
+    </script>
+
+    <style type="text/css">
+        /*
+            this is required to maintain the height of slider. 
+        */
+        
+        .item{
+            overflow: hidden;
+            margin: auto;
+            height: 150px; /* for devices smaller than 768px */
+        }
+
+        @media (min-width: 768px) {
+            .item{
+                height: 200px; /* for devices larger than 768px */
+            }
+        }
+        @media (min-width: 992px) {
+            .item{
+                height: 300px; /* for devices larger than 992px */
+            }
+        }
+        @media (min-width: 1200px) {
+            .item{
+                height: 400px; /* for devices larger than 1200px */
+            }
+        }
+
+    </style>
+
+
+</body>
+
+</html>
+
+
